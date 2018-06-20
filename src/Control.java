@@ -1,8 +1,9 @@
 import java.util.*;
+import java.io.*;
 
 public class Control {
-	public static void main(String[] args) { // Read the files and get ready to form the 3 graph expressions.
-		Scanner scan = new Scanner(System.in);
+	public static void main(String[] args) throws FileNotFoundException{ // Read the files and get ready to form the 3 graph expressions.
+		Scanner scan = new Scanner(new File(args[0]));
 		int V = scan.nextInt();
 		Graph graph = new Graph(V);
 		int neighborsNum, neighbor;
@@ -57,8 +58,7 @@ public class Control {
 		int n = strongly.size();
 		LinkedList<Integer> temp;
 
-		// Use insertion sort. I thought it's already gonna be kinda sorted so won't be
-		// a big problem.
+		// Use insertion sort. I thought it's already gonna be kinda sorted so this won't be a big problem in terms of Time complexity.
 		for (int i = 1; i < n; i++) {
 			int key = strongly.get(i).get(0);
 			temp = strongly.get(i);
