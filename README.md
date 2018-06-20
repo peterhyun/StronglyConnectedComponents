@@ -8,7 +8,7 @@ The graph input should be given as file, and the file format should be as follow
 would mean that the graph has 3 vertices, vertex 1 is connected to vertex 2 and 3, vertex 2 is connected is not connected to any vertex, and vertex 3 is connected to vertex 1.
 
 To run this program on the command line, the following inputs should be typed.
-'''
+```
 javac Control.java
 java Control (filename)
-'''
+```
