@@ -11,6 +11,6 @@ The output of the program lists all strongly connected components in each line, 
 
 To run this program on the command line, the following inputs should be typed.
 ```
-javac Control.java
-java Control (filename)
-``'
+$javac Control.java
+$java Control (filename)
+```
