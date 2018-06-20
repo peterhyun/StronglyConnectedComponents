@@ -13,6 +13,7 @@ Then the program converts this graph data to the 3 different graph representatio
 
 The output of the program lists all strongly connected components at each line in a numerically ascending order. Then it prints the time it took to get the SCCs in nanoseconds unit. This is repeated 3 times, representing each representation methods.
 
+**HOW TO RUN**
 To run this program on the command line, the following inputs should be typed.
 ```
 $javac Control.java
